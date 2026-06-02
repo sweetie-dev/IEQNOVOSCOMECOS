@@ -47,8 +47,8 @@ export default function Navbar() {
             />
           </div>
           <div className="hidden sm:block">
-            <p className="text-white font-bold text-sm leading-tight">Igreja do Evangelho</p>
-            <p className="text-gold-400 font-bold text-sm leading-tight">Quadrangular</p>
+            <p className="text-white font-bold text-sm leading-tight">Igreja do Evangelho Quadrangular</p>
+            <p className="text-gold-400 font-bold text-sm leading-tight">Novos Começos</p>
           </div>
         </button>
 

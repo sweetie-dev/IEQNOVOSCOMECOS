@@ -33,8 +33,8 @@ export default function Footer() {
                 <img src="/logo.jpeg" alt="Logo" className="w-full h-full object-cover" />
               </div>
               <div>
-                <p className="text-white font-bold text-sm">Igreja do Evangelho</p>
-                <p className="text-gold-400 font-bold text-sm">Quadrangular</p>
+                <p className="text-white font-bold text-sm">Igreja do Evangelho Quadrangular</p>
+                <p className="text-gold-400 font-bold text-sm">Novos Começos</p>
               </div>
             </div>
             <p className="text-white/40 text-sm leading-relaxed max-w-xs mb-6">
@@ -97,7 +97,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-white/5 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-white/25 text-xs">
-            &copy; {new Date().getFullYear()} Igreja do Evangelho Quadrangular. Todos os direitos reservados.
+            &copy; {new Date().getFullYear()} Igreja do Evangelho Quadrangular Novos Começos. Todos os direitos reservados.
           </p>
           <button
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
