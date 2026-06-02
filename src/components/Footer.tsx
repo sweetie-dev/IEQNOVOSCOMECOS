@@ -84,6 +84,7 @@ export default function Footer() {
                 ['Quarta', '8:30 e 19:30'],
                 ['Sexta', '8:30 e 19:30'],
                 ['Sábado', '19:30'],
+                 ['Rodovia Arthur Bernardes - 842 - Belém - PA 📍'],
               ].map(([day, time]) => (
                 <li key={day} className="flex items-center justify-between">
                   <span className="text-white/40 text-sm">{day}</span>
