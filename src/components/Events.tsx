@@ -12,9 +12,9 @@ const events = [
     tag: 'Destaque do Mês',
   },
   {
-    image: '/informando-culto-de-terca-do-vencedor.jpeg',
+    image: '/FREQUENCIA.png',
     category: 'Acampamento',
-    title: 'Acampamento: Na frequência do céu',
+    title: 'Acampamento',
     description: ' Três dias de encontro, adoração, comunhão e ativação para jovens que querem viver na frequência do céu.\n ENDEREÇO: Rua Aracanga, 358 - Bairro do Uriboca, Marituba - PA',
     date: '8, 9 e 10 de Julho - R$100,00',
     featured: false,
