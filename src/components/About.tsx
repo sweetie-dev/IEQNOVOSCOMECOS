@@ -37,7 +37,7 @@ const pillars = [
 ];
 
 const stats = [
-  { value: '+40', label: 'Anos de história' },
+  { value: '49', label: 'Anos de história' },
   { value: '4', label: 'Cultos semanais' },
   { value: '1', label: 'Família de Deus' },
   { value: '❤️', label: 'Amor ao Próximo' },
@@ -91,7 +91,7 @@ export default function About() {
             <h2 className="text-4xl sm:text-5xl font-black text-white mb-6 leading-tight">
               Igreja do Evangelho
               <br />
-              <span className="text-gold-400">Quadrangular</span>
+              <span className="text-gold-400">Quadrangular Telegrafo 1</span>
             </h2>
             <p className="text-white/60 text-lg leading-relaxed mb-6">
               Somos uma igreja pentecostal que acredita no pleno evangelho de
@@ -136,7 +136,7 @@ export default function About() {
               <div className="absolute -inset-8 bg-gradient-to-br from-red-700/20 via-gold-600/10 to-transparent rounded-full blur-2xl" />
               <div className="relative rounded-2xl overflow-hidden ring-2 ring-white/10 shadow-2xl shadow-black/60 max-w-sm mx-auto">
                 <img
-                  src="/logo.jpeg"
+                  src="/BANNER.png"
                   alt="Logo Igreja do Evangelho Quadrangular"
                   className="w-full h-auto object-cover"
                 />
