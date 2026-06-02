@@ -10,15 +10,14 @@ const slides = [
   },
   {
     image: '/informativo-mes-do-avivamento.jpeg',
-    tag: 'Mês do Avivamento',
-    title: 'O fogo do\nEspírito Santo',
+    tag: 'Seja Bem-vindo',
+    title: 'Mês do\nAvivamento',
     subtitle: 'Experimente a presença de Deus de forma poderosa. Cada culto é uma oportunidade de avivamento.',
   },
   {
-    image: '/informando-culto-de-terca-do-vencedor.jpeg',
-    tag: 'Terça do Vencedor',
-    title: 'Você é mais do que\nvencedor',
-    subtitle: 'Toda terça-feira um encontro especial para fortalecer sua fé e renovar suas forças.',
+    image: '/escola-de-sabedoria.jpg',
+    tag: 'Evento em destaque',
+    title: 'Congresso Escola\nDe Sabedoria',
   },
 ];
 
