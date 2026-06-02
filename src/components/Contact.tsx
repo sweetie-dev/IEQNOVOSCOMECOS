@@ -5,7 +5,6 @@ import {
   Mail,
   Clock,
   Instagram,
-  Youtube,
   Facebook,
 } from 'lucide-react';
 
