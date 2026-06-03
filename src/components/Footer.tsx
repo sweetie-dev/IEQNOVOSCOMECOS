@@ -1,4 +1,4 @@
-import { Instagram, Youtube, Facebook, ArrowUp } from 'lucide-react';
+import { Instagram, Facebook, ArrowUp } from 'lucide-react';
 
 const quickLinks = [
   { label: 'Início', href: '#inicio' },
@@ -9,8 +9,7 @@ const quickLinks = [
 ];
 
 const socials = [
-  { icon: Instagram, label: 'Instagram', href: '#' },
-  { icon: Youtube, label: 'YouTube', href: '#' },
+  { icon: Instagram, label: 'Instagram', href: 'https://www.instagram.com/ieqnovoscomecos/' },
   { icon: Facebook, label: 'Facebook', href: '#' },
 ];
 
@@ -80,9 +79,9 @@ export default function Footer() {
             <ul className="flex flex-col gap-2.5">
               {[
                 ['Domingos', '7:30 - 10h e 17h - 21:00'],
-                ['Terça', '8:30 e 19:30'],
-                ['Quarta', '8:30 e 19:30'],
-                ['Sexta', '8:30 e 19:30'],
+                ['Terça', '8:00 e 19:30'],
+                ['Quarta', '8:00 e 19:30'],
+                ['Sexta', '8:00 e 19:30'],
                 ['Sábado', '19:30'],
                  ['Rodovia Arthur Bernardes - 842 - Belém - PA 📍'],
               ].map(([day, time]) => (
