@@ -186,8 +186,7 @@ export default function Contact() {
 
               {submitted && (
                 <p className="text-emerald-400 mb-6">
-                  Obrigado! Seu cliente de email foi aberto para enviar a
-                  mensagem.
+                  Obrigado! Sua mensagem foi enviada.
                 </p>
               )}
 
