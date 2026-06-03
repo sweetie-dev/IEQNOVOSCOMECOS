@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, type ChangeEvent } from 'react';
 import {
   MapPin,
   Phone,
@@ -34,13 +34,13 @@ const contactItems = [
   {
     icon: Phone,
     label: 'Telefone',
-    value: '(00) 0000-0000',
+    value: '(91) 8253-1795',
     sub: 'Seg-Sex, 9h às 17h',
   },
   {
     icon: Mail,
     label: 'Email',
-    value: 'contato@iqsua.com.br',
+    value: '3mysiva@gmail.com',
     sub: 'Respondemos em até 24h',
   },
   {
@@ -61,6 +61,32 @@ const socials = [
 
 export default function Contact() {
   const { ref, inView } = useInView();
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    subject: '',
+    message: '',
+  });
+  const [submitted, setSubmitted] = useState(false);
+
+  const handleChange = (field: keyof typeof formData) => (
+    event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    setFormData((prev) => ({ ...prev, [field]: event.target.value }));
+  };
+
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+
+    const mailAddress = '3mysiva@gmail.com';
+    const subject = formData.subject || 'Contato pelo site';
+    const body = `Nome: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`;
+    const mailto = `mailto:${mailAddress}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    window.location.href = mailto;
+    setSubmitted(true);
+    setFormData({ name: '', email: '', subject: '', message: '' });
+  };
 
   return (
     <section
@@ -152,11 +178,18 @@ export default function Contact() {
           >
             <form
               className="p-6 sm:p-8 rounded-2xl bg-neutral-800/60 border border-white/5"
-              onSubmit={(e) => e.preventDefault()}
+              onSubmit={handleSubmit}
             >
               <h3 className="text-white font-bold text-xl mb-6">
                 Envie uma mensagem
               </h3>
+
+              {submitted && (
+                <p className="text-emerald-400 mb-6">
+                  Obrigado! Seu cliente de email foi aberto para enviar a
+                  mensagem.
+                </p>
+              )}
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
                 <div>
@@ -166,6 +199,8 @@ export default function Contact() {
                   <input
                     type="text"
                     placeholder="Seu nome"
+                    value={formData.name}
+                    onChange={handleChange('name')}
                     className="w-full bg-neutral-900/80 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-white/25 text-sm focus:outline-none focus:border-gold-500/50 focus:ring-1 focus:ring-gold-500/20 transition"
                   />
                 </div>
@@ -176,6 +211,8 @@ export default function Contact() {
                   <input
                     type="email"
                     placeholder="seu@email.com"
+                    value={formData.email}
+                    onChange={handleChange('email')}
                     className="w-full bg-neutral-900/80 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-white/25 text-sm focus:outline-none focus:border-gold-500/50 focus:ring-1 focus:ring-gold-500/20 transition"
                   />
                 </div>
@@ -188,6 +225,8 @@ export default function Contact() {
                 <input
                   type="text"
                   placeholder="Como podemos ajudar?"
+                  value={formData.subject}
+                  onChange={handleChange('subject')}
                   className="w-full bg-neutral-900/80 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-white/25 text-sm focus:outline-none focus:border-gold-500/50 focus:ring-1 focus:ring-gold-500/20 transition"
                 />
               </div>
@@ -199,6 +238,8 @@ export default function Contact() {
                 <textarea
                   rows={4}
                   placeholder="Escreva sua mensagem..."
+                  value={formData.message}
+                  onChange={handleChange('message')}
                   className="w-full bg-neutral-900/80 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-white/25 text-sm focus:outline-none focus:border-gold-500/50 focus:ring-1 focus:ring-gold-500/20 transition resize-none"
                 />
               </div>
