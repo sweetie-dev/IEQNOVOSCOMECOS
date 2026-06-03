@@ -40,7 +40,7 @@ const contactItems = [
   {
     icon: Mail,
     label: 'Email',
-    value: '3mysiva@gmail.com',
+    value: 'catedralnovoscomecos@gmail.com',
     sub: 'Respondemos em até 24h',
   },
   {
@@ -78,7 +78,7 @@ export default function Contact() {
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
-    const mailAddress = '3mysiva@gmail.com';
+    const mailAddress = 'catedralnovoscomecos@gmail.com';
     const subject = formData.subject || 'Contato pelo site';
     const body = `Nome: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`;
     const mailto = `mailto:${mailAddress}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
