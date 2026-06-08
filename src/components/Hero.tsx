@@ -15,9 +15,9 @@ const slides = [
     subtitle: 'Experimente a presença de Deus de forma poderosa. Cada culto é uma oportunidade de avivamento.',
   },
   {
-    image: '/escola-de-sabedoria.jpg',
+    image: '/FREQUENCIA.png',
     tag: 'Evento em destaque',
-    title: 'Congresso Escola\nDe Sabedoria',
+    title: 'ACAMPAMENTO',
   },
 ];
 

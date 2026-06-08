@@ -3,15 +3,15 @@ import { Calendar, ArrowRight,Tag } from 'lucide-react';
 
 const events = [
   {
-    image: '/escola-de-sabedoria.jpg',
-    category: 'Ensino',
-    title: 'Escola de sabedoria',
-    description: 'Uma experiência de formação espiritual para quem quer crescer em sabedoria, oração e propósito. São duas noites de ensino prático, adoração e encontros com líderes criativos da igreja.',
-    date: '4 e 5 de Junho de  2026 - R$45,00',
-    featured: true,
+    image: '/FREQUENCIA.png',
+    category: 'R$100,00',
+    title: 'Acampamento na Frequência do céu',
+      description: 'Três dias de encontro, adoração, comunhão e ativação para jovens que querem viver na frequência do céu.\n ENDEREÇO: Rua Aracanga, 358 - Bairro do Uriboca, Marituba - PA',
+      date: '8, 9 e 10 de Julho',
+      featured: true,
     tag: 'Destaque do Mês',
   },
-  {
+  /*{
     image: '/FREQUENCIA.png',
     category: 'Acampamento',
     title: 'Acampamento',
@@ -19,7 +19,7 @@ const events = [
     date: '8, 9 e 10 de Julho - R$100,00',
     featured: false,
     tag: 'Anual',
-  },
+  },*/
 ];
 
 function useInView(threshold = 0.15) {
