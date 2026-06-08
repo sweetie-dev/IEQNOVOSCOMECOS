@@ -17,7 +17,7 @@ const slides = [
   {
     image: '/FREQUENCIA.png',
     tag: 'Evento em destaque',
-    title: 'ACAMPAMENTO',
+    title: 'ACAMP206',
   },
 ];
 
