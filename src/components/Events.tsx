@@ -4,10 +4,10 @@ import { Calendar, ArrowRight,Tag } from 'lucide-react';
 const events = [
   {
     image: '/FREQUENCIA.png',
-    category: 'R$100,00',
-    title: 'Acampamento na Frequência do céu',
-      description: 'Três dias de encontro, adoração, comunhão e ativação para jovens que querem viver na frequência do céu.\n ENDEREÇO: Rua Aracanga, 358 - Bairro do Uriboca, Marituba - PA',
-      date: '8, 9 e 10 de Julho',
+    category: 'R$40,00',
+    title: 'Congresso do diaconato',
+      description: 'um dia de encontro, adoração, comunhão e ativação para hoens e mulheres a serviço do Rei! ENDEREÇO: IEQ Sede Pedreira - Templo maior',
+      date: '7 de setembro',
       featured: true,
     tag: 'Destaque do Mês',
   },

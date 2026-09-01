@@ -11,13 +11,13 @@ const slides = [
   {
     image: '/informativo-mes-do-avivamento.jpeg',
     tag: 'Seja Bem-vindo',
-    title: 'Mês do\nAvivamento',
+    title: 'Setembro Amarelo',
     subtitle: 'Experimente a presença de Deus de forma poderosa. Cada culto é uma oportunidade de avivamento.',
   },
   {
     image: '/FREQUENCIA.png',
     tag: 'Evento em destaque',
-    title: 'ACAMP206',
+    title: 'Congresso Diaconato',
   },
 ];
 
