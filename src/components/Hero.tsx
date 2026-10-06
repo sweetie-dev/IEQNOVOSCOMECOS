@@ -9,7 +9,7 @@ const slides = [
     subtitle: 'Venha fazer parte de uma comunidade viva, cheia do Espírito Santo e apaixonada por Deus.',
   },
   {
-    image: '/informativo-mes-do-avivamento.jpeg',
+    image: '/informativo-mes-do-avivamento.png',
     tag: 'Seja Bem-vindo',
     title: 'Setembro Amarelo',
     subtitle: 'Experimente a presença de Deus de forma poderosa. Cada culto é uma oportunidade de avivamento.',
