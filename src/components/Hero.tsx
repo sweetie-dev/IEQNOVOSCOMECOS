@@ -11,7 +11,6 @@ const slides = [
   {
     image: '/informativo-mes-do-avivamento.png',
     tag: 'Seja Bem-vindo',
-    title: 'Outubro',
     subtitle: 'Experimente a presença de Deus de forma poderosa.',
   },
   {
