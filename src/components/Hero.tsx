@@ -14,7 +14,7 @@ const slides = [
     subtitle: 'Experimente a presença de Deus de forma poderosa.',
   },
   {
-    image: '/FREQUENCIA.png',
+    image: '/FREQUENCIA.jpeg',
     tag: 'Evento em destaque',
     title: 'Congresso estadual de adolecentes 2026.',
   },
