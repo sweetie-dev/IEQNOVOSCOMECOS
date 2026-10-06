@@ -14,11 +14,11 @@ const slides = [
     title: 'Outubro',
     subtitle: 'Experimente a presença de Deus de forma poderosa.',
   },
-  /*{
+  {
     image: '/FREQUENCIA.png',
     tag: 'Evento em destaque',
-    title: 'Congresso Diaconato',
-  },*/
+    title: 'Congresso estadual de adolecentes 2026.',
+  },
 ];
 
 export default function Hero() {
