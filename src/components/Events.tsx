@@ -3,11 +3,11 @@ import { Calendar, ArrowRight,Tag } from 'lucide-react';
 
 const events = [
   {
-    image: '/FREQUENCIA.png',
-    category: 'R$40,00',
-    title: 'Congresso do diaconato',
-      description: 'um dia de encontro, adoração, comunhão e ativação para hoens e mulheres a serviço do Rei! ENDEREÇO: IEQ Sede Pedreira - Templo maior',
-      date: '7 de setembro',
+    image: '/FREQUENCIA.jpeg',
+    category: 'R$ 35,00',
+    title: 'Congresso estadual de adolecentes - Next Level',
+      description: 'um dia inteiro de adoração, ensino e comunhão para adolescentes que querem viver o próximo nivel na presença de Deus.\n ENDEREÇO: IEQ sede Pedreira.',
+      date: '17 de Outubro',
       featured: true,
     tag: 'Destaque do Mês',
   },

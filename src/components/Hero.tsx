@@ -11,14 +11,14 @@ const slides = [
   {
     image: '/informativo-mes-do-avivamento.png',
     tag: 'Seja Bem-vindo',
-    title: 'Setembro Amarelo',
-    subtitle: 'Experimente a presença de Deus de forma poderosa. Cada culto é uma oportunidade de avivamento.',
+    title: 'Outubro',
+    subtitle: 'Experimente a presença de Deus de forma poderosa.',
   },
-  {
+  /*{
     image: '/FREQUENCIA.png',
     tag: 'Evento em destaque',
     title: 'Congresso Diaconato',
-  },
+  },*/
 ];
 
 export default function Hero() {
